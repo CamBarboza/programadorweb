@@ -1,0 +1,53 @@
+    body{
+        background-color: rgb(107, 154, 201);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        color: aliceblue
+    }
+    #perfil{
+        background-color: rgb(225, 227, 230);
+        margin: 15px;
+        padding: 10px;
+        border-radius: 25px;
+        color: rgb(107, 154, 201);
+
+    }
+    #edad{
+        background-color: rgb(225, 227, 230);
+        margin: 15px;
+        padding: 10px;
+        border-radius: 25px;
+        color: rgb(24, 98, 218);
+        margin-top: 35px;
+    }
+    #gustos{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    #box1{
+        background-color: rgb(225, 227, 230);
+        color:rgb(107, 154, 201);
+        border-radius: 20px;
+        margin: 20px;
+        padding: 15px;
+    }
+    #box2{
+        background-color: rgb(225, 227, 230);
+        color:rgb(107, 154, 201);
+        border-radius: 20px;
+        margin: 20px;
+        padding: 15px;
+        
+    }
+    
+    h3{
+        font-weight: 900;
+        color: rgb(24, 98, 218);
+    }
+    img{
+        border-radius: 80px;
+        box-shadow:-10px 15px 35px 1px rgba(77, 104, 224, 0.75) ;
+    }
