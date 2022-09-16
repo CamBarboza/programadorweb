@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        const distancia = parseInt(prompt('ingrese una distancia', ''));
+
+        if (distancia < 0) {
+            document.write('La distancia no puede ser menor a cero');
+        } else if (0<distancia && distancia<= 1000) {
+            document.write('El medio de transporte apropiado para esta distancia es a pie');
+              } else
+            if (1000<distancia && distancia<= 10000) {
+                document.write('El medio de transporte apropiado para esta distancia es bicicleta');
+            } else
+                if (10000<distancia && distancia<= 30000 ) {
+                    document.write('El medio de transporte apropiado para esta distancia es colectivo');
+                } else
+                    if (30000 <distancia && distancia<= 100000) {
+                        document.write('El medio de transporte apropiado para esta distancia es auto');
+                    } else if (100000< distancia) {
+                        document.write('El medio de transporte apropiado para esta distancia es avion');
+                    }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        const num = [23, 7, 345, 2894, 5, 999];
+
+        let may = 0;
+
+        for (let i = 0 ; i < num.length; i++) {
+             if (num[i] > may ) {
+                may = num[i];
+             }
+        }
+        document.write(`El mayor de ${num} es ${may}`); 
+    </script>
+</body>
+
+</html>
