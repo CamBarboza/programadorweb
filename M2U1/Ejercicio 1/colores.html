@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            display: flex;
+        }
+        .boxes {
+            width: 100px;
+            height: 100px;
+        }
+
+        #yellow {
+            background-color: yellow;
+            border-color: yellow;
+        }
+
+        #purple {
+            background-color: purple;
+            border-color: purple;
+        }
+
+        #pink {
+            background-color: pink;
+            border-color: pink;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <button onclick="alternan('yellow')" class="boxes" id="yellow"></button>
+        <button onclick="alternan('purple')" class="boxes" id="purple"></button>
+        <button onclick="alternan('pink')" class="boxes" id="pink"></button>
+    </div>
+    <script>
+
+        function alternan(color) {
+            document.body.style.background = color;
+        }
+
+    </script>
+</body>
+
+</html>

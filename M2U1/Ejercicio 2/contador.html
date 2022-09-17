@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <textarea name="caja" id="box" cols="30" rows="10"></textarea>
+    <div>La cantidad de caracteres ingresados es <span id="char"></span> </div>
+    <script>
+        var box = document.getElementById('box');
+        var char = document.getElementById('char');
+
+        box.addEventListener('keyup', function () {
+            char.innerText = box.value.length;
+        })
+    </script>
+</body>
+
+</html>
