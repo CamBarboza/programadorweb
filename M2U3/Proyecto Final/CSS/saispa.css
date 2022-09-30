@@ -1,0 +1,137 @@
+body{
+    background: #f1e6d9;
+}
+
+h1,
+h2,
+h3,
+p {
+    font-family: 'Prompt';
+}
+
+h1 {
+    font-weight: 300;
+}
+
+h2 {
+    font-weight: 200;
+}
+
+h3 {
+    font-weight: 100;
+}
+
+.navbar-brand {
+    font-family: 'Prompt';
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+
+
+}
+
+.navbar {
+    height: 80px;
+    background: #a5d9a1;
+
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.offcanvas, .offcanvas-body{
+    background: #f1e6d9;
+    color: #a5d9a1;
+}
+
+
+img {
+    width: fit-content;
+    height: min-content;
+    max-height: 750px;
+    align-content: center;
+}
+
+.row {
+    margin-top: 50px;
+    align-content: center;
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.dropdown-toggle {
+    color: #a5d9a1;
+}
+.dropdown-menu{
+    background: #f1e6d9;
+}
+.dropdown-item {
+    color: #a5d9a1;
+}
+li{
+    color: #a5d9a1;
+}
+.canva-info{
+    color: #a5d9a1;
+}
+
+
+.col-4 {
+    background-color: #a5d9a1;
+    margin: 15px;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-decoration: none;
+}
+
+h2 {
+    align-items: center;
+    margin-top: 25px;
+    font-size: 250%;
+
+}
+
+.col-4:hover {
+    height: 110px;
+    width: 330px;
+    box-shadow: 10px 20px 30px gray;
+}
+
+#logo{
+    height: 24px;
+    width: 30px;
+}
+#quienessomos{
+    background-color: #a5d9a1;
+    box-shadow: 10px 10px 10px grey;
+    color: #f1e6d9;
+}
+
+.navbar-toggler{
+    box-shadow: 3px 3px 3px grey;
+}
+#footer{
+    background: #a5d9a1;
+    height: 200px;
+}
+
+.info{
+    color: #f1e6d9;
+}
+.info-icon{
+    display: flex ;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+svg{
+    margin-right: 10px;
+
+}
