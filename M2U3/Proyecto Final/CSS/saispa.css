@@ -121,6 +121,7 @@ h2 {
 #footer{
     background: #a5d9a1;
     height: 200px;
+    margin-top: 30px;
 }
 
 .info{
@@ -133,5 +134,104 @@ h2 {
 }
 svg{
     margin-right: 10px;
+}
+#work-with-us{
+    height: 500px;
+    color: whitesmoke;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #a5d9a1;
+    margin-top: 50px;
+    margin-bottom: 50px;
 
+}
+#card2{
+    background-color: #a5d9a1;
+    color: whitesmoke;
+}
+.container-lg{
+    background-color: #a5d9a1;
+    border-width: 1mm;
+    margin-bottom: 50px; 
+
+}
+.nombreynumnero{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+.btn{
+    border-color: whitesmoke;
+    background:#a5d9a1;
+    height: 50px;
+    width: 100px;
+
+}
+.mb-3, .wwuh2, .btn {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.breadcrumb-item{
+
+}
+
+#breadcrumb{
+    background-color: whitesmoke;
+    color:#a5d9a1;
+    margin-top: 5px;
+}
+
+.p-3{
+    height: 200px;
+    background-color: #a5d9a1;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+h4{
+    font-family: 'Prompt';
+    font-weight: 200;
+    margin-top: 30px;
+}
+.button{
+    background: none;
+    border: none;
+}
+.modal-body, .modal-header{
+    text-align: center;
+}
+.modal-title{
+    text-align: center;
+}
+.btn-secondary{
+    width: 120px;
+    height: 60px;
+}
+#depi{
+    padding: 10px 30px 10px 30px;
+    margin-top: 40px;
+}
+#promodepi{
+    margin-top: 70px;
+}
+
+#depibutton{
+    border-color: #a5d9a1;
+    background-color: #f1e6d9;
+    color: #a5d9a1;
+    height: 40px;
+    width: 170px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.container-md{
+    background-color: #a5d9a1;
+}
+
+.visitanos{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+iframe{
+    padding-left: 100px;
 }
