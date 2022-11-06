@@ -1,0 +1,118 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contactanos-body{
+    background-color: azure;
+}
+.navbar-servicios{
+    background-color: #ab2f01;
+}
+.navbar-contactanos{
+    box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.4);
+}
+.nav-link{
+    color: azure;
+}
+nav{
+    background-color: #ab2f01;
+}
+.navservicios, .navcontactanos{
+    list-style-type: none;
+    /* height: px; */
+    font-family: 'Lato';
+    font-weight: 500 ;
+    /* display: flex;
+    align-items: center; */
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    padding-top: 10;
+    margin: 5PX;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.navservicios:hover{
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+.navcontactanos{
+    text-align: center;
+}
+.testimonios{
+    color: beige;
+}
+.form{
+    color: beige;
+}
+iframe{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 450px;
+}
+.contact-form{
+    background-color: #ab2f01;
+    color: azure;
+    margin-top: 70px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.6);
+}
+.button-form{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: beige;
+    background-color: #ab2f01;
+    border: none;
+    border-radius: 7%;
+}
+.button-form:hover {
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.6);
+}
+.texto-form{
+    text-align: left;
+}
+.dato{
+
+    background-image: url(/images/datofondo\(1\).png);
+    color: beige;
+    width: 100%;
+    text-shadow: 1px 1px 2px black;
+    height: 600px;
+    box-shadow: 5px 0px 5px 1px rgba(0,0,0,0.6) ;
+    margin-top: 30px;
+
+}
+.quienessomos{
+    background-color:#ab2f01 ;
+    height: 400px;
+    color: beige;
+    box-shadow: 5px 0px 5px 1px rgba(0,0,0,0.6) ;
+    margin-top: 30px;
+}
+.boton-form{
+    color: beige;
+}
+
+.button-modal{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: beige;
+    background-color: #ab2f01;
+    border: none;
+    border-radius: 7%;
+    margin: 6px;
+}
+.button-modal:hover {
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.4);
+    padding: 13px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
