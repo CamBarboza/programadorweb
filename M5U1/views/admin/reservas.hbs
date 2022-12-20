@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Hola {{usuario}}!</p>
+<h3>Estas son tus reservas</h3>
+
+<div class="reservas-cuadro">
+    <table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Sucursal</th>
+      <th scope="col">Servicio</th>
+      <th scope="col">Fecha</th>
+      <th scope="col">Horario</th>
+      <th scope="col">Personas</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each reservas}}
+    <tr>
+      <th scope="row"></th>
+      <td>{{sucursal}}</td>
+      <td>{{servicio}}</td>
+      <td>{{fecha}}</td>
+      <td>{{horario}}</td>
+      <td>{{personas}}</td>
+      <td><button><a href="/admin/reservas/eliminar/{{id}}">Cancelar</a></button></td>
+    </tr>
+
+
+    </tr>
+    {{/each}}
+  </tbody>
+</table>
+</div>
+
+</body>
+</html>
