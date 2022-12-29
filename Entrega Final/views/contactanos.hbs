@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bunshi - Actividades extremas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="proyfinal.css">
+</head>
+
+<body class="contactanos-body">
+    <ul class="nav bg-dark navreservas">
+        <h4 style="color: #fff ;">¿Quieres reservar o ver tus reservas? Haz click</h4>
+        <li class="nav-item ">
+            <a class="aquireservas nav-link  " style="text-decoration: none;margin-top:3px; color: #ab2f01;" href="/admin/login">AQUI</a>
+        </li>
+    </ul>
+
+
+    <div class="form contact-form container-md ">
+        <form action="/contactanos" method="post">
+            <h1>Hola!</h1>
+            <h3>Si tienes alguna consulta respecto a un reserva o quieres hacer un reclamo, por favor, llamanos a 011 4587-6634 o llena este formulario con los datos de la reserva y te contactaremos lo antes posible.</h3>
+
+
+            <div class="row mb-3">
+                <div class="col-6">
+                    <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                    <input type="Name" class="form-control" id="exampleFormControlInput1" name="nombre"
+                        placeholder="Nombre...">
+                </div>
+                <div class="col-6">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" name="email"
+                        placeholder="name@example.com">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-6">
+                    <label for="exampleFormControlInput1" class="form-label">Servicio a elegir</label>
+                    <select class="form-select" name="servicio" aria-label="Default select example">
+                        <option selected>Paracaidismo</option>
+                        <option value="Salto en bungee">Salto en bungee</option>
+                        <option value="Tirolesa">Tirolesa</option>
+                        <option value="Ski">Ski</option>
+                        <option value="Rafting">Rafting</option>
+                        <option value="Tracking">Tracking</option>
+                    </select>
+                </div>
+                <div class="col-6">
+                    <label for="exampleFormControlInput1" class="form-label">Sucursal</label>
+                    <select class="form-select" name="sucursal" aria-label="Default select example">
+                        <option selected value="San Rafael">San Rafael, Mendoza</option>
+                        <option value="Merlo">Merlo, San Luis</option>
+                        <option value="Bariloche">Bariloche, Rio Negro</option>
+                        <option value="Perito Moreno">Perito Moreno, Santa Cruz</option>
+
+                    </select>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-6">
+                    <label for="exampleFormControlInput1" class="form-label">Fecha a elegir</label>
+                    <input type="date" class="form-control" name="fecha" id="exampleFormControlInput1" placeholder="">
+                </div>
+                <div class="col-6">
+                    <label for="exampleFormControlInput1" class="form-label">Cantidad de personas</label>
+                    <input type="number" class="form-control" id="exampleFormControlInput1" name="personas"
+                        placeholder="1">
+                </div>
+            </div>
+
+
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Algo que quieras agregar...</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" name="mensaje" rows="3"></textarea>
+            </div>
+            
+            <button style="margin-top: 30px;" class="button-form btn-primary">Enviar</button>
+        </form>
+
+        <p>{{message}}</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
